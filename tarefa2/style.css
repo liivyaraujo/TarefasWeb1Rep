@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.titulo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.titulo h3 {
+  margin: 0;
+  color: #333;
+  font-size: 28px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Campo {
+  background-color: whitesmoke;
+  width: 100%;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.Campo h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 24px;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.Campo label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.Campo input[type="text"],
+.Campo input[type="date"],
+.Campo input[type="email"],
+.Campo input[type="radio"] {
+  width: calc(100% - 10px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.Campo input[type="email"] {
+  margin-top: 5px;
+}
