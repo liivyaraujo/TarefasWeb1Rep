@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro</title>
+</head>
+<body>
+
+    <div class="titulo">
+        <h3>Exemplo de cadastro (utilizando um formulário)</h3>
+    </div>
+    
+    <form action="">
+        <div class="container">
+             <div class="Campo">
+                <h2>Seu Cadastro</h2>
+                
+                <div class="nome">
+                    <label for="nome">Nome completo</label>
+                    <input type="text" name="nome" placeholder="Digite seu nome aqui" id="nome">
+                </div>
+
+                <div class="Campo">
+                    <label>Sexo</label>
+                    <input type="radio" name="sexo" id="sexoMasculino" value="masculino">
+                    <label for="sexoMasculino">Masculino</label>
+                    <input type="radio" name="sexo" id="sexoFeminino" value="feminino">
+                    <label for="sexoFeminino">Feminino</label>
+                </div>
+
+                <div class="Campo">
+                    <label for="cpf">CPF</label>
+                    <input type="text" id="cpf" name="cpf" pattern="\d{11}" maxlength="11" placeholder="Somente números" required>
+                </div>
+
+                <div class="Campo">
+                    <label for="mae">Nome da mãe</label>
+                    <input type="text" id="mae" name="mae" required>
+                </div>
+
+                <div class="Campo">
+                    <label for="dataNascimento">Data de Nascimento</label>
+                    <input type="date" id="dataNascimento" name="dataNascimento" required>
+                </div>
+
+                <div class="Campo">
+                    <label for="rg">RG</label>
+                    <input type="text" id="rg" name="rg" pattern="\d{1,9}[\dXx]" maxlength="10" placeholder="Digite seu RG" required>
+                </div>
+    
+    <div class="Campo">
+        <label for="ufOrgaoEmissor">UF do Órgão Emissor</label>
+        <input type="text" id="uf"   name="uf-orgao-emissor"> 
+
+
+        <div class="Campo">
+            <label for="municipio-nascimento"> Município de Nascimento</label>
+            <input type="text"  id="municipioNasc" name="municipio-nasc">
+        </div>
+
+        
+            
+
+<div class="Campo">
+    <label for="escolaridade">Escolaridade</label>
+    <input type="text" id="escolaridade" name="escolaridade" required>
+</div>
+
+<div class="Campo">
+    <label for="email">E-mail</label>
+    <input type="email" name="email" placeholder="Digite seu email" id="email" required>
+</div>
+</div>
+
+
+<div class="cadastroConjuge">
+<h2>Cadastro do seu cônjuge</h2>
+
+<div class="Campo">
+    <label for="nomeConjuge">Nome completo</label>
+    <input type="text" name="nomeConjuge" placeholder="Digite o nome aqui" id="nomeConjuge">
+</div>
+
+<div class="Campo">
+    <label>Sexo</label>
+    <input type="radio" name="sexoConjuge" id="sexoMasculinoConjuge" value="masculino">
+    <label for="sexoMasculinoConjuge">Masculino</label>
+    <input type="radio" name="sexoConjuge" id="sexoFemininoConjuge" value="feminino">
+    <label for="sexoFemininoConjuge">Feminino</label>
+</div>
+
+<div class="Campo">
+    <label for="cpfConjuge">CPF</label>
+    <input type="text" id="cpfConjuge" name="cpfConjuge" pattern="\d{11}" maxlength="11" placeholder="Somente números" required>
+</div>
+
+<div class="Campo">
+    <label for="maeConjuge">Nome da mãe</label>
+    <input type="text" id="maeConjuge" name="maeConjuge" required>
+</div>
+
+<div class="Campo">
+    <label for="dataNascimentoConjuge">Data de Nascimento</label>
+    <input type="date" id="dataNascimentoConjuge" name="dataNascimentoConjuge" required>
+</div>
+
+<div class="Campo">
+    <label for="rgConjuge">RG</label>
+    <input type="text" id="rgConjuge" name="rgConjuge" pattern="\d{1,9}[\dXx]" maxlength="10" placeholder="Digite o RG" required>
+</div>
+
+<div class="Campo">
+    <label for="ufOrgaoEmissor">UF do Órgão Emissor</label>
+    <input type="text" id="uf"   name="uf-orgao-emissor"> 
+
+    <div class="Campo">
+        <label for="municipioNascConjuge">Município de Nascimento</label>
+        <input type="text" id="municipioNascConjuge" name="municipioNascConjuge" required>
+    </div>
+
+    <div class="Campo">
+        <label for="escolaridadeConjuge">Escolaridade</label>
+        <input type="text" id="escolaridadeConjuge" name="escolaridadeConjuge" required>
+    </div>
+
+    <div class="Campo">
+        <label for="emailConjuge">E-mail</label>
+        <input type="email" name="emailConjuge" placeholder="Digite o email" id="emailConjuge" required>
+    </div>
+</div>
+</div>
+</form>
+
+</body>
+</html>
+
+
+
+
